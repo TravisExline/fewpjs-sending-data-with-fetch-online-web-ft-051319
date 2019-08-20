@@ -6,8 +6,8 @@ submitData(userName, userEmail) {
       "Accept": "application/json"
     },
     body: JSON.stringify({
-      name: userName,
-      email: userEmail
+      userName,
+      userEmail
     })
   })
 }
