@@ -10,3 +10,4 @@ submitData(userName, userEmail) {
       email: userEmail
     })
   })
+}
