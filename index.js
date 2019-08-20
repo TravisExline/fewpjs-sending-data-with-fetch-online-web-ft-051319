@@ -10,4 +10,13 @@ submitData(userName, userEmail) {
       userEmail
     })
   })
+  .then(function(response) {
+    return response.json()
+  })
+  .then(function(object) {
+    console.log(object)
+  })
+  .catch(function(error) {
+    document.body.innerHTML = error.message
+  })
 }
